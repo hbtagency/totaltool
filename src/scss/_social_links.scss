@@ -1,0 +1,17 @@
+.social_links_area{
+    h2{
+        font-family: corbertregular;
+    }
+    .border-right{
+        border-right: 1px solid #000;
+        padding-right: 13px;
+        margin-right: -13px;
+    }
+    img{
+        max-width:80px !important;
+    }
+    img:hover{
+        opacity: 0.6;
+        @include transition(all 0.8s ease);
+    }
+}

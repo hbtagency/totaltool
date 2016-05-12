@@ -1,0 +1,29 @@
+.thumb_content_gray{
+    h2{
+        font-family:gotham_boldregular;
+        font-weight:bold;
+    }
+    .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li{
+        margin-bottom:0;
+    }
+    background-color:#e6e7e8;
+    .wpb_single_image{
+        img{
+            width:70%;
+            margin-top:15px;
+        }
+    }
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+@media (max-width:$screen-sm-max){
+    .thumb_content_gray{
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}

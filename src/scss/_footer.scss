@@ -1,0 +1,28 @@
+footer{
+    width:100%;
+    background-color:#e6e7e8;
+    padding:10px 0 3px 0;
+    
+    .inline-block{
+        display:inline-block;
+    }
+    .footer_copyright{
+        padding-top:5px;
+        p{
+            font-size:12px;
+            text-align: right;
+        }
+    }
+}
+
+@media (max-width:$screen-sm-max){
+    footer{
+
+
+    .footer_copyright{
+        p{
+            text-align: center;
+        }
+    }
+}
+}

@@ -1,0 +1,27 @@
+.title_base_of_slider{
+    .wpb_wrapper{
+        text-align: center !important;
+        h2{
+            font-size:60px;
+            width:100%;
+            display:inline-block;
+        }
+    }
+    
+}
+
+.belowslider-three-cols{
+    .vc_column_container{
+        @include transition(all 0.8s ease);
+        opacity: 0;
+    }
+}
+
+@media (max-width:$screen-sm-max){
+    .belowslider-three-cols{
+        padding-top:20px;
+        img.vc_single_image-img.attachment-full{
+            width:60%;
+        }
+    }
+}

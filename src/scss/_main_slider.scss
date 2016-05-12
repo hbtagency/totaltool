@@ -1,0 +1,169 @@
+.slider{
+    background-color:#284c97;
+    .slider-mobile{
+        padding-right:500px;
+    }
+    
+    .tp-caption{
+        h1{
+            color:#fff;
+            font-family:enge_holzschriftregular;
+            line-height:32% !important;
+            text-align: center;
+            font-size:85px;
+            &.yellow{
+                color:#fbe600;
+            }
+        }
+        .slider-buttons{
+            padding:10px 10px 10px 300px;
+            .row{
+                position:relative;
+                margin-bottom:10px;
+                .inline-block{
+                    display:inline-block;
+                    width:30%;
+                }
+                .text{
+                    font-size:22px;
+                    color:#fff !important;
+                    float:left;
+                    position:absolute;
+                    top:16px;
+                }
+                .slider-button{
+                    height:35px;
+                    padding:30px 40px;
+                    border:2px solid #fff;
+                    border-radius: 3px;
+                    float:right;
+                }
+                .google{
+                    width:160px;
+                    float:right;
+                }
+                .apple{
+                    width:160px;
+                    float:right;
+                    margin-right:15px;
+                }
+            }
+        }
+    } 
+}
+
+.tp-caption.very_big_white, .very_big_white{
+    background-color:rgb(40, 76, 151) !important;
+}
+
+
+@media (min-width:$screen-sm-min) and (max-width: $screen-md-max){
+    .tp-caption {
+        h1{
+            font-size:40px !important;
+        }
+    }
+    
+    .tp-caption{
+        padding-right:10px;
+        .slider-buttons{
+            padding-top:20px;
+        }
+    }
+}
+
+@media (min-width:$screen-xs-min) and (max-width: $screen-xs-max){
+    .slider{
+        .slider-mobile{
+            padding-right:400px !important;
+        }
+    }
+    
+    .tp-caption{
+        h1{
+            font-size:35px !important;
+            display:inline-block;
+            padding:10px;
+        }
+        padding-right:10px;
+        .arrow{
+            display:none;
+        }
+        .apple{
+            float:left !important;
+        }
+        .slider-buttons{
+            padding:20px 10px 10px 140px !important;
+
+            float:left !important;
+        }
+    }
+    
+}
+@media (min-width:$screen-xxs-min) and (max-width: $screen-xxs-max){
+    .slider{
+        .slider-mobile{
+            padding-right:250px !important;
+        }
+    }
+    .tp-caption {
+        h1{
+            font-size:20px !important;
+            text-align: center !important;
+            display:inline-block;
+        }
+        .slider-buttons{
+            padding:20px 10px 10px 140px !important;
+            text-align: center;
+            .arrow{
+                display:none;
+            }
+            .row{
+                .google{
+                    width:85px !important;
+                }
+                .apple{
+                    width:85px !important;
+                }
+                .slider-button{
+                    padding:10px !important;
+                    background-size:70px auto !important;
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:$screen-xxxs-max){
+    .slider{
+        .slider-mobile{
+            padding-right:180px !important;
+        }
+    }
+    .tp-caption {
+        h1{
+            font-size:20px !important;
+            text-align: center !important;
+            display:inline-block;
+        }
+        .slider-buttons{
+            padding:20px 10px 10px 80px !important;
+            text-align: center;
+            .arrow{
+                display:none;
+            }
+            .row{
+                .google{
+                    width:80px !important;
+                }
+                .apple{
+                    width:80px !important;
+                }
+                .slider-button{
+                    padding:5px !important;
+                    background-size:60px auto !important;
+                }
+            }
+        }
+    }
+}

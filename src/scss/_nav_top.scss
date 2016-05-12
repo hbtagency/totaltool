@@ -1,0 +1,16 @@
+nav.top_nav{
+    padding:5px 0;
+    .free_to_join{
+        text-align: right;
+    }
+}
+
+@media (max-width:$screen-xs-max){
+    nav.top_nav{
+        .logo{
+            img{
+                max-width:150px;
+            }
+        }
+    }
+}
