@@ -1,0 +1,21 @@
+.home-bar-img{
+    .vc_column-inner {
+        margin:0 !important;
+        padding:0 !important;
+        .img-responsive{
+            margin:0 !important;
+            width:100%;
+        }
+    }
+    .wpb_single_image {
+        .vc_figure{
+            display:block;
+        }
+        .vc_single_image-wrapper{
+            display:block;
+        }
+        img{
+            width:100%;
+        }
+    }
+}

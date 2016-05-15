@@ -15,7 +15,6 @@ get_header();
 <!-- Terms and conditions -->
 <div class="modal fade" id="terms_conditions" role="dialog">
     <div class="modal-dialog">
-    
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">

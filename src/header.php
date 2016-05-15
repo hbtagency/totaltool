@@ -8,7 +8,6 @@
 <title><?php wp_title( '-', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
 <?php wp_head(); ?>
 <script>
     jQuery(document).ready(function(){
@@ -20,7 +19,7 @@
         });
     });
 </script>
-  <script src="<?php echo get_site_url(); ?>/js/bootstrap.min.js"/>
+<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"/>
 
 
 </head>
