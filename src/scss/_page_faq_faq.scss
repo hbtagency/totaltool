@@ -1,8 +1,38 @@
 .faq-container{
-    h1,li,h4,h2{
-        font-family:gotham_boldregular !important;
+    font-family: corbertregular;
+    font-size:16px;
+    h1,h4,h2{
+        font-family:proxima-nova,proxima_nova_rgbold !important;
     }
     h1{
         font-size:50px;
+    }
+    .wpb_wrapper{
+        li{
+            font-family: corbertregular;
+        }
+        ol{
+            li{
+                font-size:20px;
+            }
+        }
+    }
+    
+    p{
+        font-family: corbertregular;
+        font-size:16px;
+    }
+}
+
+.modal-header{
+    .close{
+        position:absolute;
+        right:15px;
+    }
+} 
+
+.modal-open{
+    .modal{
+        background-color:rgba(0, 85, 164,0.5);
     }
 }

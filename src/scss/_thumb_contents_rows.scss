@@ -1,7 +1,9 @@
 .thumb_content_gray{
     h2{
-        font-family:gotham_boldregular;
-        font-weight:bold;
+        //font-family:proxima_nova_rgbold;
+        font-family:proxima-nova,proxima_nova_rgbold;
+        font-weight:bolder;
+        font-size:34px;
     }
     .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li{
         margin-bottom:0;
@@ -13,14 +15,21 @@
             margin-top:15px;
         }
     }
-    padding-top:25px;
-    padding-bottom:35px;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+.reduce_margin_top{
+    padding-top:0;
+    .vc_column-inner {
+        padding-top:20px !important;
+    }
 }
 
 @media (max-width:$screen-sm-max){
     .thumb_content_gray{
         h2{
             text-align: center;
+
         }
         p{
             text-align: center;

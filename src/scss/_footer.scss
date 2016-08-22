@@ -9,20 +9,22 @@ footer{
     .footer_copyright{
         padding-top:5px;
         p{
-            font-size:12px;
+            font-size:14px;
             text-align: right;
+            word-spacing: 1px;
         }
+    }
+    a{
+        text-decoration: underline;
     }
 }
 
 @media (max-width:$screen-sm-max){
     footer{
-
-
     .footer_copyright{
-        p{
+         p{
             text-align: center;
-        }
-    }
-}
+         }
+      }
+   }
 }

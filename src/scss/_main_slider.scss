@@ -1,22 +1,31 @@
+.fullwidthbanner-container{
+    background-color:#002c5d !important;
+}
+
 .slider{
-    background-color:#284c97;
+    background-color:#002c5d;
     .slider-mobile{
         padding-right:500px;
     }
     
     .tp-caption{
+        img{
+            margin:15px auto 10px auto;
+        }
         h1{
             color:#fff;
-            font-family:enge_holzschriftregular;
-            line-height:32% !important;
+            //font-family:enge_holzschriftregular;
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            line-height:35% !important;
             text-align: center;
-            font-size:85px;
+            text-shadow: 1px 3px 3px #333;
             &.yellow{
                 color:#fbe600;
             }
         }
         .slider-buttons{
-            padding:10px 10px 10px 300px;
+            padding:10px 10px 10px 343px;
             .row{
                 position:relative;
                 margin-bottom:10px;
@@ -25,25 +34,26 @@
                     width:30%;
                 }
                 .text{
-                    font-size:22px;
+                    font-size:29px;
                     color:#fff !important;
                     float:left;
                     position:absolute;
-                    top:16px;
+                    top:6px;
+                    font-weight:bold;
                 }
                 .slider-button{
-                    height:35px;
-                    padding:30px 40px;
+                    height:25px;
+                    padding:25px 40px;
                     border:2px solid #fff;
-                    border-radius: 3px;
+                    border-radius: 5px;
                     float:right;
                 }
                 .google{
-                    width:160px;
+                    width:150px;
                     float:right;
                 }
                 .apple{
-                    width:160px;
+                    width:150px;
                     float:right;
                     margin-right:15px;
                 }
@@ -57,11 +67,65 @@
 }
 
 
-@media (min-width:$screen-sm-min) and (max-width: $screen-md-max){
+
+
+@media(min-width:$screen-md-min){
+    .slider{
+        .tp-caption{
+            margin-left:-120px !important;
+            h1{
+                font-size:100px;
+                letter-spacing: 2px;
+                margin-bottom:15px;
+            }
+            .slider-buttons{
+               .row{
+                    .apple{
+                        width:170px;
+                        margin-right:5px;
+                    }
+                    .google{
+                        width:170px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:$screen-md-min) and (max-width:$screen-md-max){
+    .slider{
+        .tp-caption{
+            h1{
+                font-size:85px;
+            }
+            .slider-buttons{
+                .row{
+                    .text{
+                        font-size:24px;
+                    }
+                    .apple{
+                        width:150px;
+                        margin-right:5px;
+                    }
+                    .google{
+                        width:150px;
+                    }
+                }
+            }
+        }
+   }
+}
+
+@media (min-width:$screen-sm-min) and (max-width: $screen-sm-max){
     .tp-caption {
         h1{
-            font-size:40px !important;
+            font-size:60px !important;
         }
+    }
+    
+    .slider .tp-caption .slider-buttons .row .apple{
+        margin-right:27px;
     }
     
     .tp-caption{
@@ -81,11 +145,8 @@
     
     .tp-caption{
         h1{
-            font-size:35px !important;
-            display:inline-block;
-            padding:10px;
+            font-size:50px;
         }
-        padding-right:10px;
         .arrow{
             display:none;
         }
@@ -94,7 +155,6 @@
         }
         .slider-buttons{
             padding:20px 10px 10px 140px !important;
-
             float:left !important;
         }
     }
@@ -108,9 +168,7 @@
     }
     .tp-caption {
         h1{
-            font-size:20px !important;
-            text-align: center !important;
-            display:inline-block;
+            font-size:40px;
         }
         .slider-buttons{
             padding:20px 10px 10px 140px !important;
@@ -119,21 +177,23 @@
                 display:none;
             }
             .row{
+                margin-bottom: 0 !important;
                 .google{
-                    width:85px !important;
+                    width:100px !important;
                 }
                 .apple{
-                    width:85px !important;
+                    width:100px !important;
+                    float:left !important;
                 }
                 .slider-button{
-                    padding:10px !important;
-                    background-size:70px auto !important;
+                    padding:15px !important;
+                    background-size:80px auto !important;
                 }
             }
         }
-    }
-    
+    } 
 }
+
 @media (max-width:$screen-xxxs-max){
     .slider{
         .slider-mobile{
@@ -142,26 +202,26 @@
     }
     .tp-caption {
         h1{
-            font-size:20px !important;
-            text-align: center !important;
-            display:inline-block;
+            font-size:25px !important;
         }
         .slider-buttons{
-            padding:20px 10px 10px 80px !important;
+            padding:20px 10px 10px 100px !important;
             text-align: center;
             .arrow{
                 display:none;
             }
             .row{
+                margin-bottom: 0 !important;
                 .google{
                     width:80px !important;
                 }
                 .apple{
                     width:80px !important;
+                    float:left !important;
                 }
                 .slider-button{
                     padding:5px !important;
-                    background-size:60px auto !important;
+                    background-size:70px auto !important;
                 }
             }
         }

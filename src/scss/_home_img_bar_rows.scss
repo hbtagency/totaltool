@@ -16,6 +16,15 @@
         }
         img{
             width:100%;
+            opacity: 0;
+            @include transition(all 1s ease);
+        }
+    }
+    &.visible{
+        .wpb_single_image{
+            img{
+                opacity:1;
+            }
         }
     }
 }

@@ -8,12 +8,14 @@ get_header();
 
 <section class="slider">
     <div class="container">
-    <?php echo do_shortcode("[rev_slider landing_slider]")?>
+        <?php putRevSlider("landing_slider") ?>
+
+    <?php //echo do_shortcode("[rev_slider landing_slider]")?>
     </div>
 </section>  
 
 <!-- Terms and conditions -->
-<div class="modal fade" id="terms_conditions" role="dialog">
+<div class="modal fade tk-proxima-nova tk-proxima-nova-condensed" id="terms_conditions" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
       <div class="modal-content">
@@ -39,7 +41,7 @@ get_header();
 </div>
 
 <!-- Privacy -->
-<div class="modal fade" id="privacy" role="dialog">
+<div class="modal fade tk-proxima-nova tk-proxima-nova-condensed" id="privacy" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
       <div class="modal-content">
@@ -63,8 +65,6 @@ get_header();
       </div>
     </div>
 </div>
-
-
 
 <div class="container">
   <section id="primary" class="wrap-content">

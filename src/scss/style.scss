@@ -32,18 +32,20 @@ Domain Path: #{metadata(theme-text-domain-path)}
 //@import "reset";
 
 // Everything else
-@import "fonts";
+@import "fonts"; 
 @import "main_slider"; 
 @import "nav_top"; 
 @import "below_home_slider"; 
-@import "home_membership"; 
-@import "thumb_contents_rows";
+@import "belowslider-three-cols";
+@import "home_membership";
+@import "thumb_contents_rows"; 
 @import "blue_container_top_footer";
-@import "social_links";
-@import "footer";
+@import "social_links"; 
+@import "footer"; 
 @import "page_faq_faq";
-@import "terms_privacies"; 
-@import "home_img_bar_rows";
-  
+@import "terms_privacies";  
+@import "home_img_bar_rows"; 
+
+
 
 

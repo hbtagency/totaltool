@@ -4,20 +4,21 @@
     color:#fff;
     p{
         color:#fff;
-        font-weight:bold;
         font-size:20px;
     }
     h2{
         color:#fff;
-        font-size:40px;
+        font-size:38px;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
     }
-    
+
     .two_col_buttons{
        .vc_column_container {
            padding:15px;
             .vc_column-inner{
-                padding:55px 25px 20px 25px;
-                background-color:#284c97;
+                padding:55px 35px 20px 35px;
+                background-color:#004382;
                 border-radius: 5px;
             }   
 
@@ -26,3 +27,12 @@
     }
 }
 
+
+@media(min-width:$screen-md-min){
+    .blue_footer_top{
+        p{
+            padding-left:100px;
+            padding-right:100px;
+        }
+    }
+}
